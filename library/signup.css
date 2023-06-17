@@ -1,0 +1,56 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  body {
+    background-image: url("https://image.slidesdocs.com/responsive-images/background/blue-education-cute-books-child-book-powerpoint-background_cff8a912a2__960_540.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  }
+
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #message {
+    margin-top: 20px;
+    color: red;
+  }
+  
